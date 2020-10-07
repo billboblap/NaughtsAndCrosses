@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NoughtsAndCrosses.exe" version="1.0.0.0" publicKeyToken="d70b005f21962271" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NoughtsAndCrosses" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NoughtsAndCrosses.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NoughtsAndCrosses.exe" size="284144">
+      <assemblyIdentity name="NoughtsAndCrosses" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>efIjw8NY5GsZAXA3oDVRlYLPaZIr03GftBAR1y8i6Qs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NoughtsAndCrosses.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LLM1D6P\New User" issuerKeyHash="3042f3264f1f237a83940156963c8a26cd5e84f3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r9gfVAdeMHREN8mmRY2WXRVqCCv88eb0Vq1RGZ3j8/Y=</DigestValue></Reference></SignedInfo><SignatureValue>rciC9x/2XYrbpmMgJOL3RAbrCC+hckqHZkyq1g8JztQpeb/xiLjQ2bWsMGeHEFIlUCXrX1Nb/0KNJJLe9LnIs2IxXg8/LDzjsYdlo6wuUfTV+1xySER7wmQV4mIc3xNhpOJ1A4ekXdetJOXx8R+Autb+lrHlaJKh+BaZRKtCCvE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6XLaRa1scihlWv8pRMV9D8R91vuUlCcovF0Keiz65lahyodT+a2Myuo++fR2DyNfwKz1YPflfzefYlBq75vPd+YSBsO5EGrK7EleVFewqPCuSzGyK1vLzXgh+OmGhBtiFT4oTZNtVrDA1FK/VK7UVqjQVJKO8v9p6GudVtt1AEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f6f3e39d1951ad56f4e6f1fc2b086a155d968d45a6c9374474305e07541fd8af" Description="" Url=""><as:assemblyIdentity name="NoughtsAndCrosses.exe" version="1.0.0.0" publicKeyToken="d70b005f21962271" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LLM1D6P\New User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aON7Lzbpia3QrZTlOb6WzURFk/4/eYiysYfgTv5yKN4=</DigestValue></Reference></SignedInfo><SignatureValue>rXzJ381tcn+x4JY1iLJf+KdgDEAIsTaG/kxc3XJr2PiP4U3ezO7GIL134bNlOaMdo/J/V6Y7A5hoHGW8Ft9qY9o+GRhSCRiG9CrjQGxRJ1XKS77AOdsuB+xCyQEf3zHiQoMKyzKl3Tfis4LwWUwLa8vXia074VeIHy1dxlQD8+k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6XLaRa1scihlWv8pRMV9D8R91vuUlCcovF0Keiz65lahyodT+a2Myuo++fR2DyNfwKz1YPflfzefYlBq75vPd+YSBsO5EGrK7EleVFewqPCuSzGyK1vLzXgh+OmGhBtiFT4oTZNtVrDA1FK/VK7UVqjQVJKO8v9p6GudVtt1AEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQIatqu/+x2KlMAU2DHKe0oDANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEwATABNADEARAA2AFAAXABOAGUAdwAgAFUAcwBlAHIwHhcNMjAxMDA3MTAxODQ1WhcNMjExMDA3MTYxODQ1WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEwATABNADEARAA2AFAAXABOAGUAdwAgAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOly2kWtbHIoZVr/KUTFfQ/Efdb7lJQnKLxdCnos+uZWocqHU/mtjMrqPvn0dg8jX8Cs9WD35X83n2JQau+bz3fmEgbDuRBqyuxJXlRXsKjwrksxsitby814IfjphoQbYhU+KE2TbVawwNRSv1Su1Fao0FSSjvL/aehrnVbbdQBJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA2C/JFenGja2VocK82kZkALYJjsJFI/SuyE1eeR7I6gTmeQqZj7sT6mSffn4o9Kg+ouSD9N/t2i2iksFMPHLwIY3s5tCIcqv+MyA7MNe4EbX7S13WM8wg0MZOqmx+UBi8j6RFSC04BQFwQ3awBtEWPPRn2L2J3lWNIDyTKMuNTjU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

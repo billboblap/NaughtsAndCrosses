@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoughtsAndCrosses", "NoughtsAndCrosses.csproj", "{035C4E86-50E3-491E-A3F2-907A3283078A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035C4E86-50E3-491E-A3F2-907A3283078A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035C4E86-50E3-491E-A3F2-907A3283078A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035C4E86-50E3-491E-A3F2-907A3283078A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035C4E86-50E3-491E-A3F2-907A3283078A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C89115-917F-4607-A1E0-5945F0B49898}
+	EndGlobalSection
+EndGlobal

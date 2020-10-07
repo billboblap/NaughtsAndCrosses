@@ -1,0 +1,14 @@
+C:\Users\New User\source\repos\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.exe.config
+C:\Users\New User\source\repos\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.exe
+C:\Users\New User\source\repos\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.pdb
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csprojAssemblyReference.cache
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.Form1.resources
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.Properties.Resources.resources
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csproj.GenerateResource.cache
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csproj.CoreCompileInputs.cache
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.exe
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.pdb
+C:\Users\New User\source\repos\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.exe.manifest
+C:\Users\New User\source\repos\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.application
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.exe.manifest
+C:\Users\New User\source\repos\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.application
